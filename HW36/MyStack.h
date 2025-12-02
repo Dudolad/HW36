@@ -26,7 +26,7 @@ public:
 
 	void pop() {
 		if (isEmpty()) throw "Stack is empty";
-		topIndex--;
+		TopIndex--;
 	}
 
 	void show() {
