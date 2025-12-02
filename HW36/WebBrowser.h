@@ -33,4 +33,14 @@ public:
 
 		return history.top();
 	}
+
+	void showHistory() {
+		std::cout << "History: ";
+		history.show();
+	}
+
+	void showForward() {
+		std::cout << "Forward: ";
+		forwardStack.show();
+	}
 };
